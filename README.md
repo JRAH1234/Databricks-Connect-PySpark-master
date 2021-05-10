@@ -47,4 +47,4 @@ If you would like to deploy from your local PC to Databricks create a file in th
 
 Copyright Data Thirst Ltd (2019)
 
-Some new stuff from JP xx
+Some new stuff from JP yy
