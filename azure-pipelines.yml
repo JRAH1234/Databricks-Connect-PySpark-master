@@ -34,7 +34,7 @@ steps:
    python -m pip install --upgrade pip && pip install -r requirements.txt 
   displayName: 'Install dependencies'
 
-- script: 'databricks-connect test'
+- script: 'echo "{\n\ \"host\": \"https://adb-7787982948014651.11.azuredatabricks.net\",\n\ \"org_id\": \"${DataBricksOrgId}\",\n\ \"port\": \"15001\"\n\ }" >> databricks-connect test'
   displayName: 'databricks-connect test'
   continueOnError: true
   
