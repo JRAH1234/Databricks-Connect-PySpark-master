@@ -1,6 +1,6 @@
 {
   "host": "https://adb-7787982948014651.11.azuredatabricks.net",
-  "port": "8787",
+  "port": "15001",
   "token": "dapi69545e2a494bdafd3106503531847134",
   "cluster_id": "0507-122431-heel757",
   "org_id": "7787982948014651"
