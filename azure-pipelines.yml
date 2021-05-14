@@ -34,7 +34,7 @@ steps:
    python -m pip install --upgrade pip && pip install -r requirements.txt 
   displayName: 'Install dependencies'
 
-- script: 'databricks-connect configure'
+- script: 'databricks-connect test'
   displayName: 'databricks-connect test'
   continueOnError: true
   
