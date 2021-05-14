@@ -35,9 +35,9 @@ steps:
   displayName: 'Install dependencies'
 
 - script: 'databricks-connect test'
-   displayName: 'Install dependencies'
-   continueOnError: False
-    
+  displayName: 'databricks-connect test'
+  continueOnError: true
+  
 - script: 'pip install pytest && pytest tests --doctest-modules --junitxml=junit/test-results.xml'
   displayName: pytest
   continueOnError: true
